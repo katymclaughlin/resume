@@ -3,11 +3,20 @@ img {
     border-radius: 40%;
     width: 150px; 
   }
-/*Adding background to name*/
+
+  /*setting id for title of page*/
+#title {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    margin: 20px 20px 20px 20px;
+}
+
+    /*Adding background to name*/
 .title {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 30px;
+    font-size: 60px;
     background: url(KM.png); 
     background-size: 300px;
     background-repeat: no-repeat;
@@ -15,6 +24,7 @@ img {
     padding: 50px 50px 50px 50px;
     border-bottom: 5px solid black;
 }
+
 /*setting id for headers*/
 #header {
     font-size: 18px;
@@ -22,15 +32,17 @@ img {
     font-weight: bold;
     text-decoration: underline;
 }
+
 /*Adding class for Contact Information Section*/
 .information {
     font-size: 16px;
     background-color: rgb(175, 211, 213);
     padding: 40px 150px 80px 50px;
 }
+
 /*Adding padding for resume section*/
 .resume {
-    padding: 25px 80px 50px 60px;
+    padding: 25px 80px 50px 30px;
 }
 
 
