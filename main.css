@@ -1,23 +1,29 @@
 
 /*Adding background to name*/
-.namebackground {
+.title {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
-    background-image: url("KM.png") alt="background signature";
-    padding: 50px 100px 50px 100px
+    background: url(KM.png); 
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 100px 50px 100px;
+    border-bottom: 5px solid black;
 }
 /*Adding class for Headers in Contact Information Section*/
-.class h1 {
+.information {
     font-size: 16px;
 }
-/*Adding class for text in Contact information and resume section*/
+/*Adding class for Contact information and resume section*/
 .class p {
     font-size: 14px;
 }
 
 /*Adding class for headers in resume section*/
-.class h2 {
+.resume {
     font-size: 14px;
+    text-decoration: underline;
     color: crimson;
 }
+
