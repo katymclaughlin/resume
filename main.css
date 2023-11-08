@@ -1,4 +1,8 @@
-
+/*Adding profile picture*/
+img {
+    border-radius: 40%;
+    width: 150px; 
+  }
 /*Adding background to name*/
 .title {
     text-align: center;
@@ -11,19 +15,16 @@
     padding: 50px 100px 50px 100px;
     border-bottom: 5px solid black;
 }
-/*Adding class for Headers in Contact Information Section*/
+/*setting id for headers*/
+#header {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/*Adding class for Contact Information Section*/
 .information {
     font-size: 16px;
-}
-/*Adding class for Contact information and resume section*/
-.class p {
-    font-size: 14px;
+    background-color: rgb(175, 211, 213);
 }
 
-/*Adding class for headers in resume section*/
-.resume {
-    font-size: 14px;
-    text-decoration: underline;
-    color: crimson;
-}
 
