@@ -12,12 +12,13 @@ img {
     background-size: 300px;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 50px 100px 50px 100px;
+    padding: 50px 50px 50px 50px;
     border-bottom: 5px solid black;
 }
 /*setting id for headers*/
 #header {
     font-size: 18px;
+    color: rgb(37, 131, 136);
     font-weight: bold;
     text-decoration: underline;
 }
@@ -25,6 +26,11 @@ img {
 .information {
     font-size: 16px;
     background-color: rgb(175, 211, 213);
+    padding: 40px 150px 80px 50px;
+}
+/*Adding padding for resume section*/
+.resume {
+    padding: 25px 80px 50px 60px;
 }
 
 
